@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackedButtons</key>
+	<array>
+		<dict>
+			<key>class</key>
+			<string>ViewController</string>
+			<key>selector</key>
+			<string>buttonClicked:</string>
+			<key>label</key>
+			<string>Button 1</string>
+		</dict>
+	</array>
+	<key>trackedScreens</key>
+	<array>
+		<dict>
+			<key>class</key>
+			<string>SecondViewController</string>
+			<key>selector</key>
+			<string>viewDidDisappear:</string>
+			<key>label</key>
+			<string>Second screen disappeard!</string>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>TresViewController</string>
+			<key>selector</key>
+			<string>viewDidAppear:</string>
+			<key>label</key>
+			<string>Third screen entered!</string>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>ViewController</string>
+			<key>selector</key>
+			<string>viewDidAppear:</string>
+			<key>label</key>
+			<string>First screen entered!</string>
+		</dict>
+	</array>
+</dict>
+</plist>

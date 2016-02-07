@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'ConfigurationTest' do
+	pod 'MOAspects', '~> 2.1'
+	pod 'ObjectMapper', '~> 1.0'
+	pod 'Kingfisher', '~> 2.0'
+	pod 'PromiseKit'
+	pod 'netfox'
+end

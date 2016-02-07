@@ -1,0 +1,41 @@
+PODS:
+  - Kingfisher (2.0.0)
+  - MOAspects (2.1.0)
+  - netfox (1.7)
+  - ObjectMapper (1.0.1)
+  - OMGHTTPURLRQ (3.0.2):
+    - OMGHTTPURLRQ/RQ (= 3.0.2)
+  - OMGHTTPURLRQ/FormURLEncode (3.0.2)
+  - OMGHTTPURLRQ/RQ (3.0.2):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (3.0.2)
+  - PromiseKit (3.0.1):
+    - PromiseKit/Foundation (= 3.0.1)
+    - PromiseKit/QuartzCore (= 3.0.1)
+    - PromiseKit/UIKit (= 3.0.1)
+  - PromiseKit/CorePromise (3.0.1)
+  - PromiseKit/Foundation (3.0.1):
+    - OMGHTTPURLRQ (~> 3.0.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (3.0.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (3.0.1):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - Kingfisher (~> 2.0)
+  - MOAspects (~> 2.1)
+  - netfox
+  - ObjectMapper (~> 1.0)
+  - PromiseKit
+
+SPEC CHECKSUMS:
+  Kingfisher: 67d280b39e878afbd467c80953924a61950c45e4
+  MOAspects: 658f5e086fee17891167d530ee46c06a307d18e2
+  netfox: 4b7be664ab924b43eea93dacd56ace4c908a6c6c
+  ObjectMapper: 98524bac0dca46c6b3d5ee02cd410fc700ec6ce2
+  OMGHTTPURLRQ: 8376dc887d76a5a7e2a67881dc788f917a2f437c
+  PromiseKit: 19d12914484a15c25a46f72fde38579204a5dac6
+
+COCOAPODS: 0.39.0
